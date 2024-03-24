@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Curriculum.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Curriculum</title>
+</head>
+<body>
+    <div class="testa">
+        <img src="faro.jpeg" alt="" id="img" width="200" height="200">
+        <div id="title">
+            <h1 id="cognome">Luca Angelo Licata</h1>
+            <h2 id="professione">STUDENTE</h2>
+            <h6 >NATO: 31/01/2007</h6>
+        </div>
+    </div>
+    <div class="contenuti">
+        <div id="grid1">
+            <h3 class="st">CONTATTO</h3>
+            <h6>TELEFONO: 351 824 3324</h6>
+            <h6>EMAIL: licata.luca99@gmail.com</h6>
+        </div>
+        <div id="grid2">
+            <h3 class="st">CHI SONO</h3>
+            <p>
+                Sono uno studente con una forte passione per l'informatica. Ho acquisito competenze in programmazione e risoluzione dei problemi attraverso lo studio scolastico, progetti personali e corsi online. 
+            </p>
+        </div>
+        <div id="grid3">
+            <h3 class="st">COMPETENZE</h3>
+            <p>
+                Programmazione: Java, JavaSript, HTML/CSS(livello base).
+                Strumenti: IntelliJ, Visual Studio Code, Git.
+                Capacità di risolvere problemi complessi e pensiero logico. 
+            </p>
+        </div>
+        <div id="grid4">
+            <h3 class="st">FORMAZIONE</h3>
+            <h5 id="scuola">Leonardo Da Vinci Carate</h5>
+            <h6 class="sezione">ITI Informatico</h6>
+            <h6 class="sezione">2019/2024</h6>
+        </div>
+        <div id="grid5">
+            <h3 class="st">ESPERIENZE LAVORATIVE</h3>
+            <h5 id="scuola">Progetti Personali</h5>
+            <p>
+                Sviluppo dei semplici programmi a scopo didattico, creazione di applicazioni e di siti web
+            </p>
+        </div>
+        <div id="grid6">
+            <h3 class="st">LINGUE</h3><br>
+            <h6 class="sezione">Italiano - Madrelingua</h6>
+            <h6 class="sezione">Inglese - fluente(livello B2)</h6>
+        </div>
+    </div>
+    <div id="privacy">
+        <p id="normativa">
+            Autorizzo il trattamento dei dati personali presenti nel CV ai sensi del D.Lgs. 2018/101 e del GDPR (Regolamento UE 2016/679).
+        </p>
+    </div>
+    <div class="input">
+        <form action="" method="get">
+            <fieldset>
+                <legend>Inviami le tue credenziali</legend>
+                <ul>
+                    <li>
+                        <label for="">Nome <input type="text" name="Nome" value="" placeholder="Nome"></label>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="">Cognome <input type="text" name="Cognome" value="" placeholder="Cognome"></label>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="">Regione 
+                            <select name="Regione" id="">
+                                <option value="Abruzzo">Abruzzo</option>
+                                <option value="Basilicata">Basilicata</option>
+                                <option value="Calabria">Calabria</option>
+                                <option value="Campania">Campania</option>
+                                <option value="Emilia Romagna">Emilia Romagna</option>
+                                <option value="Friuli Venezia Giulia">Friuli Venezia Giulia</option>
+                                <option value="Lazio">Lazio</option>
+                                <option value="Liguria">Liguria</option>
+                                <option value="Lombardia">Lombardia</option>
+                                <option value="Marche">Marche</option>
+                                <option value="Molise">Molise</option>
+                                <option value="Piemonte">Piemonte</option>
+                                <option value="Puglia">Puglia</option>
+                                <option value="Sardegna">Sardegna</option>
+                                <option value="Sicilia" selected>Sicilia</option>
+                                <option value="Toscana">Toscana</option>
+                                <option value="Trentino Alto Adige">Trentino Alto Adige</option>
+                                <option value="Ubmria">Umbria</option>
+                                <option value="Val d'Aosta">Val d'Aosta</option>
+                                <option value="Veneto">Veneto</option>
+                            </select>
+                        </label>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="">Email <input type="email" name="email" value=""></label>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="">Data Nascita <input type="date" name="data" value=""></label>
+                    </li>
+                </ul>
+                <button type="submit">Invia</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
